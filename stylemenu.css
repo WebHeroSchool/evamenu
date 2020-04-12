@@ -47,6 +47,7 @@
   display: flex;
   align-items: center;
   position: fixed;
+  visibility: hidden;
   top: 20;
   left: 20px;
   width: 100%;
@@ -79,6 +80,7 @@
   .header__burger {
     display: block;
     position: relative;
+    visibility: visible;
     width: 30px;
     height: 20px;
   }
